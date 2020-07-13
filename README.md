@@ -1,10 +1,10 @@
 # Java
 Having to sorted arrays, implement a function that will merge the arrays into one sorted array.
-
+```
 public static int[] merge(int[] a, int[] b) {
 
 }
-
+```
 
 # SQL
 ```
@@ -14,8 +14,8 @@ CREATE TABLE users
     user_id  NUMBER(6) PRIMARY KEY,
     username VARCHAR2(32),
     role_id  NUMBER(6)
-);
-```
+);  
+
  
 ```
 CREATE TABLE roles
@@ -34,9 +34,7 @@ ALTER TABLE users
 ```
  
 
--- Questions 
+-- Questions  
 -- 1. Add constraint for minimum username to be 5 characters. (what problems may arise from this change?)  
-
- 
 
 -- 2. Alter relationship between users and roles table to Many-To-Many. (what extra steps would you take if the tables already contained data?)  
