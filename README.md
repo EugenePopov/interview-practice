@@ -14,19 +14,15 @@ CREATE TABLE users
     user_id  NUMBER(6) PRIMARY KEY,
     username VARCHAR2(32),
     role_id  NUMBER(6)
-);  
+);
 
- 
-```
 CREATE TABLE roles
 (
     role_id   NUMBER(6),
     role_name VARCHAR2(255),
     CONSTRAINT pk_roles PRIMARY KEY (role_id)
 );
-```
- 
-```
+
 ALTER TABLE users
     ADD (
         CONSTRAINT fk_users_roles FOREIGN KEY (role_id) REFERENCES roles (role_id)
