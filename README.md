@@ -1,5 +1,5 @@
 # Java
-Having to sorted arrays, implement a function that will merge the arrays into one sorted array.
+Having two sorted arrays, implement a function that will merge the arrays into one sorted array.
 ```
 public static int[] merge(int[] a, int[] b) {
 
